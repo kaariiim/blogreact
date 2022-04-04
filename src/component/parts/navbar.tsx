@@ -1,19 +1,24 @@
 import react from "react"
-import { Col, Container, Row } from "reactstrap";
+import Contenet from "./contenent";
+import Header from "./header";
+
+
 import './navbar.css';
+import Sidebar from "./sidebar";
 
 const Navba=() =>{
 return (
     <div className="container">
         <div className="row">
-            <div className="col-md-2  a1">left header
+            <div className="col-md-12  a1">
+        <Header/>  
             </div>
-            <div className="col-md-10 a2">right header
-
+   
+            <div className=" col-md-2 r2 a3"> 
+            <Sidebar></Sidebar>
             </div>
-            <div className=" col-md-2 r2 a3"> left contenet
-            </div>
-            <div  className=" col-md-10 r2 a4"> contenent
+            <div  className=" col-md-10 r2 a4"> 
+            <Contenet></Contenet>
                 
             </div>
 
