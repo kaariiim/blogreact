@@ -1,8 +1,10 @@
+import "./content.css"
 const Contenet =()=>{
     return(
         <div className="container">
             <div className="row">
-                <div className="col-6">10
+                <div className="col-6">title is
+                <video src="https://fb.watch/cctXUlfXA8/"></video>
 
                 </div>
                 <div className="col-6">11
