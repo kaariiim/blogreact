@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+.images{
+background: -moz-linear-gradient(red,blue) , url(./image/sport.jpeg);
+}

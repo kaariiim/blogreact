@@ -1,6 +1,6 @@
 
 .a1{ height: 10vh;
-background-color: brown;;
+background-color:  rgb(38, 182, 182);;
 }
 .a2{ height: 10vh;
     background-color: rgb(68, 0, 255);
@@ -8,10 +8,14 @@ background-color: brown;;
     .a3{
         
         height: 90vh;
-        background-color: brown;
+        background-color:  rgb(38, 182, 182);
         }
         .a4{
-            background-color: rgb(166, 255, 0);
+            background-color: rgb(90, 187, 187);
             height: 90vh;
+            border-radius: 20%;
             
+            }
+            body{
+                background-color: aqua;
             }

@@ -1,13 +1,15 @@
 
 import './App.css';
-import Navba from './component/parts/navbar';
+import Forget from './component/forgetpassword';
+import Login from './component/login';
+
 
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-      {<Navba/>}
+     {<Login/>} 
       </div>
 
     </div>

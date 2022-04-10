@@ -8,7 +8,7 @@ import Sidebar from "./sidebar";
 
 const Navba=() =>{
 return (
-    <div className="container">
+    <div className="container fluid">
         <div className="row">
             <div className="col-md-12  a1">
         <Header/>  
