@@ -2,10 +2,8 @@ import { Collapse,Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink, Row
 
 export default function Header (){
     return(
-     
-        <div>
-  <div>
-  <Navbar
+   
+  <Navbar className="va"
     color="faded"
     light
   >
@@ -15,27 +13,10 @@ export default function Header (){
     >
       reactstrap
     </NavbarBrand>
-    <NavbarToggler
-      className="me-2"
-      onClick={function noRefCheck(){}}
-    />
-    <Collapse navbar>
-      <Nav navbar>
-        <NavItem>
-          <NavLink href="/components/">
-            Components
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
-            GitHub
-          </NavLink>
-        </NavItem>
-      </Nav>
-    </Collapse>
+    
+  
   </Navbar>
-</div>
-</div>
+
     
  );
 }

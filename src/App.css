@@ -39,3 +39,23 @@
 .images{
 background: -moz-linear-gradient(red,blue) , url(./image/sport.jpeg);
 }
+.categorycard{
+  
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(94, 104, 208);
+    min-height: 100px;
+    
+  cursor: pointer;
+  margin: 10px;
+}
+.categorycard.pressed { 
+  border-left: 10px solid blueviolet;
+background-color: azure;
+
+}
+.va{
+  height: 60px;
+  width: 100%;
+}
+
