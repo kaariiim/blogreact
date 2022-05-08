@@ -1,61 +1,21 @@
-.App {
-  text-align: center;
+.navbarDiv{
+  background-color: darkblue;
+  height: 15vh;
+  color: antiquewhite;
+  border-radius: 10%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.images{
-background: -moz-linear-gradient(red,blue) , url(./image/sport.jpeg);
-}
-.categorycard{
-  
-    width: 100%;
-    padding: 20px;
-    background-color: rgb(94, 104, 208);
-    min-height: 100px;
-    
-  cursor: pointer;
-  margin: 10px;
-}
-.categorycard.pressed { 
-  border-left: 10px solid blueviolet;
-background-color: azure;
+.sidebarDiv{
+  background-color: darkblue;
+  height: 85vh;
+  color: antiquewhite;
+  border-radius: 10%;
 
 }
-.va{
-  height: 60px;
-  width: 100%;
+.contentDiv{
+  background-color: rgb(226, 242, 245);
+  height: 85vh;
+  border-radius: 10%;
 }
-
+body{
+  background-color: rgb(33, 3, 61);
+}
