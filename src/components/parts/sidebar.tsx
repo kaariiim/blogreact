@@ -2,7 +2,9 @@
 
 function Sidebar() {
     return ( 
-        <div className="sidebarDiv">
+        <div className="sidebarDiv"> 
+        <h2>Cathegories</h2>
+        
 
 
         </div>

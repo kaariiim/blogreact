@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "reactstrap";
-import Content from "../parts/content";
-import Navbar from "../parts/navbar";
-import Sidebar from "../parts/sidebar";
+import Content from "./content";
+import Navbar from "./navbar";
+import Sidebar from "./sidebar";
 
     
 

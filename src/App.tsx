@@ -1,6 +1,6 @@
 
 import './App.css';
-import Dashbord from './components/pages/dashbord';
+import Dashbord from './components/parts/dashbord';
 
 
 

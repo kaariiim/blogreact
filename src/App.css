@@ -5,7 +5,7 @@
   border-radius: 10%;
 }
 .sidebarDiv{
-  background-color: darkblue;
+  background-color: rgb(97, 97, 220);
   height: 85vh;
   color: antiquewhite;
   border-radius: 10%;
@@ -14,8 +14,16 @@
 .contentDiv{
   background-color: rgb(226, 242, 245);
   height: 85vh;
-  border-radius: 10%;
+
 }
 body{
-  background-color: rgb(33, 3, 61);
+  background-color: rgb(164, 178, 241);
+}
+.mail{
+  margin-top: 20px;
+ 
+}
+h2{
+  text-align: center;
+  padding-top: 50px;
 }
