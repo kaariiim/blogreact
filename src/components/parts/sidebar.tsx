@@ -1,8 +1,5 @@
-import { Route, Routes } from "react-router-dom";
-import Education from "../pages/education";
-import Loisire from "../pages/loisire";
-import Politic from "../pages/politic";
-import Sport from "../pages/sport";
+import { Link} from "react-router-dom";
+
 
 
 function Sidebar() {
@@ -10,10 +7,10 @@ function Sidebar() {
         <div className="sidebarDiv"> 
         <h2>Cathegories</h2>
         <ul>
-            <li>sport</li>
-            <li>education</li>
-            <li>politic</li>
-            <li>loisire</li>
+            <li><Link to ="/sport"/>sport</li>
+            <li><Link to ="/education"/>education</li>
+            <li><Link to ="/politic"/>politic</li>
+            <li><Link to ="/loisire"/>loisire</li>
         </ul>
 
         
